@@ -67,7 +67,7 @@ class Supermercado:
         articulo=Articulo(self.nuevoid, nombre, categoria,existencias,preciou, True)
         self.productos.append(articulo)
         self.nuevoid += 1
-    
+     
         if categoria not in self.categorias:
             self.categorias.append(categoria)
 
